@@ -1,7 +1,7 @@
 ---
 title: "Global Healthcare and Economic Growth"
 author: "Piyush Bisht"
-echo: false # to hide the code
+echo: true # to show the code
 toc: true # table of contents  
 
 ---
@@ -11,6 +11,8 @@ toc: true # table of contents
 
 Over period of time, significant changes in healthcare quality, economic growth, and population trends have shaped global well-being. This dashboard explores four key indicators that provide valuable insights into these transformations. Maternal Mortality Trends (2000 - 2020) higlight progress in reducing maternal deaths worldwide, while the relationship between GDP per Capita and Life Expectancy demonstrates how economic growth influences longevity. Additionally, Hospital Bed Availability per 1,000 people helps identify well-equiped healthcare systems, and Birth Rate Trends across Countries shed light on poppulatiom dynamics and their long term implications. By analyzing these factors, we can uncover actionable strategies to enhance healthcare outcomes and drive sustainable development.
 
+
+## Maternal Deadth Index(2000-2020)
 ```{python}
 import pandas as pd
 from report_helpers import maternal_mortality_helper
